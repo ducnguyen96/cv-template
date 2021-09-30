@@ -1,4 +1,5 @@
-## This is my Responsive CV template
+## Preview
 
-![image cv](./largescreen.png 'my-cv-template')
-![image cv](./smallscreen.png 'my-cv-template')
+![image cv](./main.png "my-cv-template")
+
+`source:` https://github.com/sb2nov/resume

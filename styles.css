@@ -65,7 +65,6 @@
 
 .social a {
   color: var(--theme-color);
-  text-decoration: none;
 }
 
 .info {
@@ -73,7 +72,7 @@
   padding-bottom: 1.5em;
 }
 
-.info:not(:last-of-type){
+.info:not(:last-of-type) {
   border-bottom: solid 1px lightgrey;
 }
 
@@ -105,8 +104,12 @@
 }
 
 @keyframes loadWidth {
-  from {width: 0;}
-  to {width: 50%;}
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
 }
 
 /* ============================= */
@@ -147,16 +150,24 @@
   font-size: 1.2rem;
 }
 
-.myproject a {
+.experience a {
   font-weight: 550;
   color: var(--theme-color);
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+}
+
+a {
+  color: var(--theme-color);
   text-decoration: none;
+}
+
+a:visited {
+  color: var(--theme-color);
 }
 
 /* ============================= */
 .shadow {
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* ============================= */
